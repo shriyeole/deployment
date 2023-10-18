@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class person {
 	@RequestMapping("/")
 	public String getname() {
-		return "shrijeet";
+		return "welcome to spring-boot project";
 	}
 }
